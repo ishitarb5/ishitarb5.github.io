@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+:root {
+    --default-bg-color: #192A51;
+    --header-txt-color: #BFD1E5;
+    --main-txt-color:#E2E9F3;
+    --shapes-primary: #E0D68A;
+    --shapes-secondary: #B07156;
+}
+
+body {
+    background-color: var(--default-bg-color);
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+}
+.container a {
+    text-decoration: none;
+}
+.container a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--header-txt-color);
+}
+
+.title {
+    margin: 2% 0 10% 0;
+}
+.title h1 {
+    font-size: 36px;
+    text-align: center;
+    color: var(--header-txt-color);
+}
+
+h4 {
+    color: var(--header-txt-color);;
+}
+
+.current {
+    text-align: center;
+    color: var(--main-txt-color);
+}
+
+p {
+    font-size: 15px;
+    color: var(--main-txt-color);
+}
+
+.navbar {
+    background-color: #071642;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+}
+
+
+.navbar-elements li {
+    display: inline;
+    flex: 1;
+    padding: 1% 1%;
+}
+.navbar-elements a {
+    color: var(--header-txt-color);
+    text-decoration: none;
+}
+.navbar-elements a:hover {
+    color: var(--shapes-primary);
+}
+.navbar-elements a:active {
+    color: var(--shapes-secondary);
+}
+
+
+.about-container {
+    margin: 5% 5%;;
+}
+.about-container h1 {
+    font-size: 36px;
+    color: var(--shapes-primary);
+}
+.about-container h4 {
+    font-size: 30px;
+}
+.about-container p {
+    font-size: 24px;
+}
+
+.about-name-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.about-name-image p {
+    flex: 0 0 70%;
+}
+.profile-pic {
+    flex: 0 0 30%;
+}
+
+
+footer {
+    background-color: #071642;
+    text-align: center;
+}
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+footer li {
+    margin: 10px;
+}
+footer ul img {
+    width: 30px;
+}
