@@ -9,41 +9,50 @@
     </head>
 
     <body>
-        <!--movie theater aesthetics-->
-        <!--svg files for curtains-->
-        <h1 class="title">Welcome to the Movies!</h1>
-        <div class="vertical-display">
-            <div class="horizontal-display">
-                <div class="box">
-                    <!-- Images used to open the lightbox -->
-                    <div class="column">
-                        <img src="img1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+        <nav class="navbar">
+            <ul class="navbar-elements">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="eecs.html">EECS</a></li>
+                <li><a href="film.html">Film</a></li>
+                <li><a href="professional.html">Resume</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+            <h1 class="title">Welcome!</h1>
+            <h4 class="title">Under Construction:)</h4>
+            <div class="vertical-display">
+                <div class="horizontal-display">
+                    <div class="box">
+                        <!-- Images used to open the lightbox -->
+                        <div class="column">
+                            <img class="item" src="assets/placeholder.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
                         </div>
                         <div class="column">
-                        <img src="img2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                            <img class="item" src="assets/placeholder.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
                         </div>
                         <div class="column">
-                        <img src="img3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
-                        </div>
-                     </div>
-                </div>
-            </div>
-
-            <div class="horizontal-display">
-                <div class="box">
-                    <div class="column">
-                        <img src="img1.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
-                        </div>
-                        <div class="column">
-                        <img src="img2.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
-                        </div>
-                        <div class="column">
-                        <img src="img3.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+                            <img class="item" src="assets/placeholder.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
                         </div>
                     </div>
                 </div>
+
+                <div class="horizontal-display">
+                    <div class="box">
+                        <div class="column">
+                            <img class="item" src="assets/placeholder.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                        </div>
+                        <div class="column">
+                            <img class="item" src="assets/placeholder.png" onclick="openModal();currentSlide(5)" class="hover-shadow">
+                        </div>
+                        <div class="column">
+                            <img class="item" src="assets/placeholder.png" onclick="openModal();currentSlide(6)" class="hover-shadow">
+                        </div>
+                </div>
+                </div>
             </div>
         </div>
+
   
         <!-- The Modal/Lightbox -->
         <div id="myModal" class="modal">
@@ -52,32 +61,32 @@
         
             <div class="mySlides">
                 <div class="numbertext">1 / 6</div>
-                <img src="img1_wide.jpg" style="width:100%">
+                <img src="assets/placeholder_wide.png" style="width:100%">
             </div>
         
             <div class="mySlides">
                 <div class="numbertext">2 / 6</div>
-                <img src="img2_wide.jpg" style="width:100%">
+                <img src="assets/placeholder_wide.png" style="width:100%">
             </div>
         
             <div class="mySlides">
                 <div class="numbertext">3 / 6</div>
-                <img src="img3_wide.jpg" style="width:100%">
+                <img src="assets/placeholder_wide.png" style="width:100%">
             </div>
         
             <div class="mySlides">
                 <div class="numbertext">4 / 6</div>
-                <img src="img4_wide.jpg" style="width:100%">
+                <img src="assets/placeholder_wide.png" style="width:100%">
             </div>
 
             <div class="mySlides">
                 <div class="numbertext">5 / 6</div>
-                <img src="img5_wide.jpg" style="width:100%">
+                <img src="assets/placeholder_wide.png" style="width:100%">
             </div>
 
             <div class="mySlides">
                 <div class="numbertext">6 / 6</div>
-                <img src="img6_wide.jpg" style="width:100%">
+                <img src="assets/placeholder_wide.png" style="width:100%">
             </div>
         
             <!-- Next/previous controls -->

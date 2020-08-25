@@ -13,9 +13,46 @@ body {
     margin: 0;
 }
 
+.navbar {
+  background-color: var(--red-curtain);
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  overflow: hidden;
+  top: 0;
+}
+
+
+.navbar-elements li {
+  display: inline;
+  flex: 1;
+  padding: 1% 1%;
+}
+.navbar-elements a {
+  color: var(--gold-primary);
+  text-decoration: none;
+}
+.navbar-elements a:hover {
+  text-decoration: underline;
+}
+.navbar-elements a:active {
+  color: var(--white-secondary);
+}
+
 .title {
     color: var(--gold-primary);
     text-align: center;
+}
+
+.container {
+  background-image: url('assets/curtains.svg');
+  background-size: 100% 100%;
 }
 
 .vertical-display {
@@ -27,16 +64,16 @@ body {
 .horizontal-display {
     height: 200px;
     width: 800px;
-    border: 1px solid #333;
+    /*border: 1px solid #333;*/
     overflow: hidden;
     margin: 25px auto;
     flex: 0 0 50%;
 }
 
 .box {
-    background: var(--white-secondary);
+    /*background: var(--white-secondary);*/
     height: 180px;
-    width: 400px;
+    width: 1000px;
     margin: 10px -400px;
 
     -webkit-animation-name: move;
@@ -49,6 +86,11 @@ body {
             animation-direction: right;
     -webkit-animation-timing-function: linear;
             animation-timing-function: linear;
+}
+
+.item {
+  height: 200px;
+  padding: 0px 50px 0px 50px;
 }
 
 .box:hover {

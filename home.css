@@ -17,10 +17,14 @@ body {
 .main-container {
     display: flex;
     flex-direction: column;
+    height: 768px;
+    background-image: url('assets/PersonalHomepage.png');
+    background-size: 108% 100%;
 }
 
 .container {
     flex: 1;
+    height: 192px;
 }
 .container a {
     text-decoration: none;
@@ -28,6 +32,10 @@ body {
 .container a:hover {
     text-decoration: underline;
     text-decoration-color: var(--header-txt-color);
+}
+
+h1 {
+    color: var(--header-txt-color);
 }
 
 .title {
@@ -39,13 +47,16 @@ body {
     color: var(--header-txt-color);
 }
 
+
 h4 {
     color: var(--header-txt-color);;
 }
 
 .current {
     text-align: center;
-    color: var(--main-txt-color);
+    font-size: 24px;
+    color: black;
+    margin-left: 3%;
 }
 
 p {
@@ -108,7 +119,6 @@ p {
 .about-name-image p {
     flex: 0 0 70%;
 }
-.profile-pic {
     flex: 0 0 30%;
 }
 
