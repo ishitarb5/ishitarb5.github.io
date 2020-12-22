@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <title> Ishita Bhimavarapu - Personal Website </title>
+        <script src="script.js"></script>
+        <link rel="stylesheet"  href="style.css">
+    </head>
+
+    <body>
+
+        <div class="container-fluid main-container">
+            <div class="row">
+
+                <!-- Nav Bar -->
+                <div class="col-sm-2">
+                    <div class="row">
+                        <!-- <div class="col-sm-2"> -->
+                            <div class="progress-container">
+                                <div class="progress-bar" id="myBar"></div>
+                            </div>
+                        <!-- </div> -->
+
+                        <!-- <div class="col-sm-10"> -->
+                            <div class="vertical-menu">
+                                <a href="#top" class="active">Home</a>
+                                <a href="#about">About</a>
+                                <a href="#eecs">EECS</a>
+                                <a href="#film">Film</a>
+                                <a href="#contact">Contact</a>
+                            </div>
+                        <!-- </div> -->
+                    </div>
+                </div>
+                
+                <!-- Main Section -->
+                <div class="col-sm-10">
+
+                    <!-- Home -->
+                    <div id="home" class="container-fluid">
+                        <div class="home-text">
+                            <h1>Ishita Bhimavarapu</h1>
+                            <!-- <h4>First Year @ MIT</h4> -->
+                        </div>
+                    </div>
+
+                    <!-- About Section  -->
+                    <div id ="about" class="container-fluid">
+                        <div class="about-text">
+                            <h1>About Me</h1>
+                            <h4>I'm a first year at Massachusetts Institute of Technology. I'm interested in human-computer interaction & transmedia storytelling. Here you can find a few of my projects in electrical engineering, computer science, and videomaking.</h4>
+                        </div>
+                    </div>
+
+                    <!-- EECS Projects -->
+                    <div id ="eecs" class="container-fluid">
+                        <div class="header-text">
+                            <h1>EECS</h1>
+                            <h5></h5>
+                        </div>
+
+                        <div class="row justify-content-center">
+
+                            <div class="col-sm">
+                                <div class="card">
+                                    <img src="assets/sustain-sc.png" class="card-img" alt="...">
+                                    <div onmouseout="this.scrollTo({ top: 0, left: 0, behavior: 'smooth' });" class="card-img-overlay">
+                                      <h5 class="card-title">UA Sustain Website</h5>
+                                      <p class="card-text">A website for the MIT UA Committee on Sustainability that provides information on each working group and is updated regularly with upcoming events.</p>
+                                      <a href="http://ua-sustain.mit.edu/" class="btn btn-dark">VISIT</a>
+                                    </div>
+                                  </div>
+                            </div>
+
+                            <div class="col-sm">
+                                <div class="card">
+                                    <img src="assets/platformer.png" class="card-img" alt="...">
+                                    <div onmouseout="this.scrollTo({ top: 0, left: 0, behavior: 'smooth' });" class="card-img-overlay">
+                                      <h5 class="card-title">HTML Doc Platformer</h5>
+                                      <p class="card-text">A minigame coded in Phaser.js and with illustrations made in Adobe Illustrator. Gamifies learning HTML for kids using a platformer game and construction site theme.</p>
+                                      <a href="https://platformer--ishitarb5.repl.co/" class="btn btn-dark">PLAY</a>
+                                    </div>
+                                  </div>
+                            </div>
+
+                            <div class="col-sm">
+                                <div class="card">
+                                    <img src="assets/pantry.png" class="card-img" alt="...">
+                                    <div onmouseout="this.scrollTo({ top: 0, left: 0, behavior: 'smooth' });" class="card-img-overlay">
+                                      <h5 class="card-title">Pantry</h5>
+                                      <p class="card-text">Capstone project for Google CSSI coded in p5.js and incorporating Firebase, Google Sign-In, Chrome Extensions, etc. The dashboard functions as a meal planner and food tracker to help users build mindful eating habits. The extensions automatically add items from an online shopping cart to your "Pantry."</p>
+                                      <a href="https://github.com/Jasli106/CSSI-Final-Project" class="btn btn-dark">CODE</a>
+                                    </div>
+                                  </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <!-- Film Projects  -->
+                    <div id ="film" class="container-fluid">
+
+                        <div class="header-text">
+                            <h1>Video</h1>
+                            <h5></h5>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm">
+                                <div class="card">
+                                    <img src="assets/careers-banner.jpg" class="card-img" alt="...">
+                                    <div onmouseout="this.scrollTo({ top: 0, left: 0, behavior: 'smooth' });" class="card-img-overlay">
+                                      <h5 class="card-title">Careers in AI</h5>
+                                      <p class="card-text">The "Careers in AI" project is a video series that introduces middle school students to professionals in the field of artificial intelligence. Through these videos, students will learn about the many fields that AI can be applied to including design, law, robotics, and entertainment.</p>
+                                      <a href="https://www.youtube.com/playlist?list=PLE5Y5NduCHO4HxOQCs5CZUuBCd_4vJ9lR" class="btn btn-dark">Watch</a>
+                                      <a href="https://www.media.mit.edu/posts/introducing-the-careers-in-ai-video-series-for-middle-school-students/" class="btn btn-dark">Read More</a>
+                                    </div>
+                                  </div>
+                            </div>
+                            <!-- <div class="col-sm">
+                                <div class="card">
+                                    <img onmouseout="this.scrollTo({ top: 0, left: 0, behavior: 'smooth' });" src="..." class="card-img" alt="...">
+                                    <div class="card-img-overlay">
+                                      <h5 class="card-title">Card title</h5>
+                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      <a href="#" class="btn btn-dark">Go somewhere</a>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="card">
+                                    <img src="..." class="card-img" alt="...">
+                                    <div onmouseout="this.scrollTo({ top: 0, left: 0, behavior: 'smooth' });" class="card-img-overlay">
+                                      <h5 class="card-title">Card title</h5>
+                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      <a href="#" class="btn btn-dark">Go somewhere</a>
+                                    </div>
+                                  </div>
+                            </div> -->
+                        </div>
+                    </div>
+
+                    <!-- Contact Section  -->
+                    <div id ="contact" class="container-fluid">
+                        <div class="contact-text">
+                            <h1>Contact Me</h1>              
+
+                            <div class="row">
+                                <div class="col-sm-3"></div>
+                                <!-- LinkedIn -->
+                                <div class="col-sm-2 d-flex justify-content-center">
+                                    <a href="https://www.linkedin.com/in/ishita-bhimavarapu-244674161">
+                                        <img style="filter:brightness(0%);" class="icon" src="assets/linkedin.png"/>
+                                    </a>
+                                </div>
+                                <!-- Github -->
+                                <div class="col-sm-2 d-flex justify-content-center">
+                                    <a href="https://github.com/ishitarb5">
+                                        <img class="icon" src="assets/git-black.png"/>
+                                    </a>
+                                </div>
+                                <!-- Email -->
+                                <div class="col-sm-2 d-flex justify-content-center">
+                                    <a href="mailto:ishitarb5@gmail.com">
+                                        <img class="icon" src="assets/mail.png"/>
+                                    </a>
+                                </div>
+                                <div class="col-sm-3"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </body>
+</html>
